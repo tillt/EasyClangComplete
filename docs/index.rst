@@ -6,11 +6,18 @@
 Welcome to EasyClangComplete's documentation!
 =============================================
 
+This document will get you up and running with EasyClangComplete
+
+.. only:: html
+
+   .. figure:: ../pics/autocomplete_show_off.gif
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   intro
+   harder_cases
 
 Indices and tables
 ==================
