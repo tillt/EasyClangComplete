@@ -6,7 +6,7 @@
 Welcome to EasyClangComplete's documentation!
 =============================================
 
-This document will get you up and running with EasyClangComplete
+This document will get you up and running with EasyClangComplete.
 
 .. only:: html
 
