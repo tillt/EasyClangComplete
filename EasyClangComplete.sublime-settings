@@ -7,6 +7,10 @@
   //  - "$project_name"       <-- replaced by the name of the current project.
   //  - "$clang_version"      <-- replaced by the numeric version of used clang.
   //  - "~"                   <-- replaced by the path to user home directory.
+  //
+  //  In addition to these, you can use your environment variables:
+  //  - OSX and Linux:  $variable_name or ${variable_name}
+  //  - Windows:        $variable_name or ${variable_name} or %variable_name%
 
   // Specify common flags that will be passed to clang for EVERY build.
   "common_flags" : [
@@ -30,9 +34,12 @@
   //  - "CMakeLists.txt"
   //  - "compile_commands.json"
   //  - ".clang_complete"
+  //
   // Every entry has an option:
   //  - "search_in": <path>  <-- a path to the folder containing the file.
-  // "cmake" entry has additional option:
+  //
+  // "cmake" entry has additional options:
+  //  - "flags": [<flags>]        <-- Additional flags to pass to cmake.
   //  - "prefix_paths": [<paths>] <-- array of folders that should be
   //                                  appended to CMAKE_PREFIX_PATHS before
   //                                  cmake is run.
