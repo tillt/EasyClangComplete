@@ -17,10 +17,11 @@ This document will get you up and running with EasyClangComplete
    :maxdepth: 2
    :caption: Contents:
 
+   features
    harder_cases
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
